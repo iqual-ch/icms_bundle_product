@@ -9,18 +9,18 @@ label: 'Product (EN)'
 type: 'canonical_entities:node'
 pattern: '/products/[node:title]'
 selection_criteria:
-  fa234571-66a8-4c3e-99b2-831e3d09df53:
+  a1b2c3d4-e5f6-7890-ab12-cd34ef56gh78:
     id: 'entity_bundle:node'
     negate: false
-    uuid: fa234571-66a8-4c3e-99b2-831e3d09df53
+    uuid: a1b2c3d4-e5f6-7890-ab12-cd34ef56gh78
     context_mapping:
       node: node
     bundles:
       icms_product: icms_product
-  b98f3bd9-4cb4-4e85-b638-01db34b5ba77:
+  b2c3d4e5-f678-90ab-12cd-34ef56gh7890:
     id: language
     negate: false
-    uuid: b98f3bd9-4cb4-4e85-b638-01db34b5ba77
+    uuid: b2c3d4e5-f678-90ab-12cd-34ef56gh7890
     context_mapping:
       language: 'node:langcode:language'
     langcodes:

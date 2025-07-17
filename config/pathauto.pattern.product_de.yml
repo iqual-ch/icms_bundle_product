@@ -9,18 +9,18 @@ label: 'Product (DE)'
 type: 'canonical_entities:node'
 pattern: '/produkten/[node:title]'
 selection_criteria:
-  9f8c8dea-3f63-4c0e-b8ec-7f63aacdc5e6:
+  a1b2c3d4-5678-90ab-cdef-1234567890ab:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 9f8c8dea-3f63-4c0e-b8ec-7f63aacdc5e6
+    uuid: a1b2c3d4-5678-90ab-cdef-1234567890ab
     context_mapping:
       node: node
     bundles:
       icms_product: icms_product
-  983fcd81-224b-48d2-8085-8d620784603f:
+  7e2b1c4a-5d2e-4f8a-9b7a-2e4b6e9d1c3f:
     id: language
     negate: false
-    uuid: 983fcd81-224b-48d2-8085-8d620784603f
+    uuid: 7e2b1c4a-5d2e-4f8a-9b7a-2e4b6e9d1c3f
     context_mapping:
       language: 'node:langcode:language'
     langcodes:

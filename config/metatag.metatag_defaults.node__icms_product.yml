@@ -1,0 +1,12 @@
+langcode: en
+status: true
+id: node__icms_product
+label: 'Content: Product'
+tags:
+  schema_product_category: '[node:field_icms_topics]'
+  schema_product_description: '[node:body]'
+  schema_product_id: '[node:url]'
+  schema_product_image: 'a:2:{s:5:"@type";s:11:"ImageObject";s:3:"url";s:48:"[node:field_icms_image:entity:field_media_image]";}'
+  schema_product_name: '[node:title]'
+  schema_product_type: Product
+  schema_product_url: '[node:url]'

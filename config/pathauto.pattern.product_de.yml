@@ -7,7 +7,7 @@ dependencies:
 id: product_de
 label: 'Product (DE)'
 type: 'canonical_entities:node'
-pattern: '/produkten/[node:title]'
+pattern: '/produkte/[node:title]'
 selection_criteria:
   a1b2c3d4-5678-90ab-cdef-1234567890ab:
     id: 'entity_bundle:node'

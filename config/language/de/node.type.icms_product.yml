@@ -1,5 +1,5 @@
 name: 'Produkt'
-description: 'Verwende <em>Produkten</em>, um offizielle Mitteilungen mit individuellem Veröffentlichungsdatum, Taxonomie-Tags und ICMS-Layout-Komponenten zu erstellen.'
+description: 'Verwende <em>Produkte</em>, um offizielle Mitteilungen mit individuellem Veröffentlichungsdatum, Taxonomie-Tags und ICMS-Layout-Komponenten zu erstellen.'
 third_party_settings:
   node_title_help_text:
     title_help: 'Haupttitel der Seite. Wird für Meta-Daten, Menüeintrag und die Anzeige im Backend verwendet, sofern diese an den entsprechenden Stellen nicht überschrieben werden.'

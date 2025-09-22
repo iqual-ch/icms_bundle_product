@@ -4,7 +4,7 @@ dependencies:
   module:
     - language
     - node
-id: product_en
+id: icms_product_en
 label: 'Product (EN)'
 type: 'canonical_entities:node'
 pattern: '/products/[node:title]'
@@ -26,7 +26,7 @@ selection_criteria:
     langcodes:
       en: en
 selection_logic: and
-weight: -10
+weight: 3
 relationships:
   'node:langcode:language':
     label: Language

@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: icms_product_fr
+label: 'Product (FR)'
+type: 'canonical_entities:node'
+pattern: '/produits/[node:title]'
+selection_criteria:
+  370b6faa-f84a-4d02-892d-01f27bf5baa4:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 370b6faa-f84a-4d02-892d-01f27bf5baa4
+    context_mapping:
+      node: node
+    bundles:
+      icms_product: icms_product
+  88c17176-2240-436e-be52-6fd8666598b7:
+    id: language
+    negate: false
+    uuid: 88c17176-2240-436e-be52-6fd8666598b7
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      fr: fr
+selection_logic: and
+weight: 5
+relationships:
+  'node:langcode:language':
+    label: Language

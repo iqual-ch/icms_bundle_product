@@ -4,29 +4,29 @@ dependencies:
   module:
     - language
     - node
-id: product_de
-label: 'Product (DE)'
+id: icms_product_it
+label: 'Product (IT)'
 type: 'canonical_entities:node'
-pattern: '/produkte/[node:title]'
+pattern: '/prodotti/[node:title]'
 selection_criteria:
-  a1b2c3d4-5678-90ab-cdef-1234567890ab:
+  e08624c4-6398-46a9-ab68-f2f8ce1786dd:
     id: 'entity_bundle:node'
     negate: false
-    uuid: a1b2c3d4-5678-90ab-cdef-1234567890ab
+    uuid: e08624c4-6398-46a9-ab68-f2f8ce1786dd
     context_mapping:
       node: node
     bundles:
       icms_product: icms_product
-  7e2b1c4a-5d2e-4f8a-9b7a-2e4b6e9d1c3f:
+  7ecb636d-594f-429b-bb1e-204029c29140:
     id: language
     negate: false
-    uuid: 7e2b1c4a-5d2e-4f8a-9b7a-2e4b6e9d1c3f
+    uuid: 7ecb636d-594f-429b-bb1e-204029c29140
     context_mapping:
       language: 'node:langcode:language'
     langcodes:
-      de: de
+      it: it
 selection_logic: and
-weight: -10
+weight: 6
 relationships:
   'node:langcode:language':
     label: Language

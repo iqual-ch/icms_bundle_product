@@ -13,6 +13,8 @@ install:
   - tagify_user_list
   - conditional_fields
   - schema_product
+  # Bundle Logic
+  - icms_bundle_product_logic
 
 config:
   actions:
